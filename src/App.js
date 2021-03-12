@@ -2,36 +2,26 @@ import React from 'react';
 import './App.css';
 import Header from './components/Header/Header';
 import Navbar from './components/Navbar/Navbar';
-import Dialog from './components/Dialogs/Dialog';
 import Profile from './components/Profile/Profile';
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
-} from "react-router-dom";
-import Music from './components/Music/Music';
-import News from './components/News/News';
+import Dialogs from "./components/Dialogs/Dialogs";
+import { BrowserRouter, Route } from "react-router-dom";
 
-const App = () => {
-  return (
-    <Router>
-      <div className='app-wrapper'>
 
-        <Header />
-        <Navbar />
-        <div className={"app-wrapper-content"}>
-          <Switch>
-            <Route ъъъ path='/dialog' component={Dialog} />
-            <Route exact path='/profile' component={Profile} />
-            <Route exact path='/Music' component={Music} />
-            <Route exact path='/news' component={News} />
-          </Switch>
-        </div>
-
-      </div>
-    </Router>
-  );
+const App = (props) => {
+    return (
+        <BrowserRouter>
+            <div className='app-wrapper'>
+                <Header />
+                <Navbar />
+                <div class='app-wrapper-content'>
+                    <Route path='/dialogs'
+                        render={() => <Dialogs state={props.state.dialogsPage} />} />
+                    <Route path='/profile'
+                        render={() => <Profile profilePage={props.state.profilePage}
+                            dispatch={props.dispatch}/>} />
+                </div>
+            </div>
+        </BrowserRouter>)
 }
 
 export default App;
