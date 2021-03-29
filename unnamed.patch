@@ -1,0 +1,927 @@
+Index: package-lock.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/package-lock.json b/package-lock.json
+--- a/package-lock.json	(revision 61d8a0bd368c9d35aa346d2352b53a70d7373e9a)
++++ b/package-lock.json	(revision 46593003330adaaabeb72739e665d30c19487322)
+@@ -1859,7 +1859,7 @@
+     },
+     "babel-plugin-syntax-object-rest-spread": {
+       "version": "6.13.0",
+-      "resolved": "https://registry.npmjs.org/babel-plugin-syntax-object-rest-spread/-/babel-plugin-syntax-object-rest-spread-6.13.0.tgz",
++      "resolved": "http://registry.npmjs.org/babel-plugin-syntax-object-rest-spread/-/babel-plugin-syntax-object-rest-spread-6.13.0.tgz",
+       "integrity": "sha1-/WU28rzhODb/o6VFjEkDpZe7O/U="
+     },
+     "babel-plugin-transform-object-rest-spread": {
+@@ -2317,7 +2317,7 @@
+     },
+     "browserify-aes": {
+       "version": "1.2.0",
+-      "resolved": "https://registry.npmjs.org/browserify-aes/-/browserify-aes-1.2.0.tgz",
++      "resolved": "http://registry.npmjs.org/browserify-aes/-/browserify-aes-1.2.0.tgz",
+       "integrity": "sha512-+7CHXqGuspUn/Sl5aO7Ea0xWGAtETPXNSAjHo48JfLdPWcMng33Xe4znFvQweqc/uzk5zSOI3H52CYnjCfb5hA==",
+       "requires": {
+         "buffer-xor": "^1.0.3",
+@@ -3047,7 +3047,7 @@
+     },
+     "create-hash": {
+       "version": "1.2.0",
+-      "resolved": "https://registry.npmjs.org/create-hash/-/create-hash-1.2.0.tgz",
++      "resolved": "http://registry.npmjs.org/create-hash/-/create-hash-1.2.0.tgz",
+       "integrity": "sha512-z00bCGNHDG8mHAkP7CtT1qVu+bFQUPjYq/4Iv3C3kWjTFV10zIjfSoeqXo9Asws8gwSHDGj/hl2u4OGIjapeCg==",
+       "requires": {
+         "cipher-base": "^1.0.1",
+@@ -3059,7 +3059,7 @@
+     },
+     "create-hmac": {
+       "version": "1.1.7",
+-      "resolved": "https://registry.npmjs.org/create-hmac/-/create-hmac-1.1.7.tgz",
++      "resolved": "http://registry.npmjs.org/create-hmac/-/create-hmac-1.1.7.tgz",
+       "integrity": "sha512-MJG9liiZ+ogc4TzUwuvbER1JRdgvUFSB5+VR/g5h82fGaIRWMWddtKBHi7/sVhfjQZ6SehlyhvQYrcYkaUIpLg==",
+       "requires": {
+         "cipher-base": "^1.0.3",
+@@ -3102,7 +3102,7 @@
+     },
+     "css-color-names": {
+       "version": "0.0.4",
+-      "resolved": "https://registry.npmjs.org/css-color-names/-/css-color-names-0.0.4.tgz",
++      "resolved": "http://registry.npmjs.org/css-color-names/-/css-color-names-0.0.4.tgz",
+       "integrity": "sha1-gIrcLnnPhHOAabZGyyDsJ762KeA="
+     },
+     "css-declaration-sorter": {
+@@ -3455,6 +3455,14 @@
+       "resolved": "https://registry.npmjs.org/deep-is/-/deep-is-0.1.3.tgz",
+       "integrity": "sha1-s2nW+128E+7PUk+RsHD+7cNXzzQ="
+     },
++    "deepcopy": {
++      "version": "2.1.0",
++      "resolved": "https://registry.npmjs.org/deepcopy/-/deepcopy-2.1.0.tgz",
++      "integrity": "sha512-8cZeTb1ZKC3bdSCP6XOM1IsTczIO73fdqtwa2B0N15eAz7gmyhQo+mc5gnFuulsgN3vIQYmTgbmQVKalH1dKvQ==",
++      "requires": {
++        "type-detect": "^4.0.8"
++      }
++    },
+     "default-gateway": {
+       "version": "2.7.2",
+       "resolved": "https://registry.npmjs.org/default-gateway/-/default-gateway-2.7.2.tgz",
+@@ -3650,7 +3658,7 @@
+     },
+     "diffie-hellman": {
+       "version": "5.0.3",
+-      "resolved": "https://registry.npmjs.org/diffie-hellman/-/diffie-hellman-5.0.3.tgz",
++      "resolved": "http://registry.npmjs.org/diffie-hellman/-/diffie-hellman-5.0.3.tgz",
+       "integrity": "sha512-kqag/Nl+f3GwyK25fhUMYj81BUOrZ9IuJsjIcDE5icNM9FJHAVm3VcUDxdLPoQtTuUylWm6ZIknYJwwaPxsUzg==",
+       "requires": {
+         "bn.js": "^4.1.0",
+@@ -8271,7 +8279,7 @@
+     },
+     "media-typer": {
+       "version": "0.3.0",
+-      "resolved": "https://registry.npmjs.org/media-typer/-/media-typer-0.3.0.tgz",
++      "resolved": "http://registry.npmjs.org/media-typer/-/media-typer-0.3.0.tgz",
+       "integrity": "sha1-hxDXrwqmJvj/+hzgAWhUUmMlV0g="
+     },
+     "mem": {
+@@ -9048,7 +9056,7 @@
+     },
+     "path-is-absolute": {
+       "version": "1.0.1",
+-      "resolved": "https://registry.npmjs.org/path-is-absolute/-/path-is-absolute-1.0.1.tgz",
++      "resolved": "http://registry.npmjs.org/path-is-absolute/-/path-is-absolute-1.0.1.tgz",
+       "integrity": "sha1-F0uSaHNVNP+8es5r9TpanhtcX18="
+     },
+     "path-is-inside": {
+@@ -11136,14 +11144,13 @@
+       }
+     },
+     "react": {
+-      "version": "16.6.3",
+-      "resolved": "https://registry.npmjs.org/react/-/react-16.6.3.tgz",
+-      "integrity": "sha512-zCvmH2vbEolgKxtqXL2wmGCUxUyNheYn/C+PD1YAjfxHC54+MhdruyhO7QieQrYsYeTxrn93PM2y0jRH1zEExw==",
++      "version": "16.14.0",
++      "resolved": "https://registry.npmjs.org/react/-/react-16.14.0.tgz",
++      "integrity": "sha512-0X2CImDkJGApiAlcf0ODKIneSwBPhqJawOa5wCtKbu7ZECrmS26NvtSILynQ66cgkT/RJ4LidJOc3bUESwmU8g==",
+       "requires": {
+         "loose-envify": "^1.1.0",
+         "object-assign": "^4.1.1",
+-        "prop-types": "^15.6.2",
+-        "scheduler": "^0.11.2"
++        "prop-types": "^15.6.2"
+       }
+     },
+     "react-app-polyfill": {
+@@ -11253,14 +11260,14 @@
+       }
+     },
+     "react-dom": {
+-      "version": "16.6.3",
+-      "resolved": "https://registry.npmjs.org/react-dom/-/react-dom-16.6.3.tgz",
+-      "integrity": "sha512-8ugJWRCWLGXy+7PmNh8WJz3g1TaTUt1XyoIcFN+x0Zbkoz+KKdUyx1AQLYJdbFXjuF41Nmjn5+j//rxvhFjgSQ==",
++      "version": "16.14.0",
++      "resolved": "https://registry.npmjs.org/react-dom/-/react-dom-16.14.0.tgz",
++      "integrity": "sha512-1gCeQXDLoIqMgqD3IO2Ah9bnf0w9kzhwN5q4FGnHZ67hBm9yePzB5JJAIQCc8x3pFnNlwFq4RidZggNAAkzWWw==",
+       "requires": {
+         "loose-envify": "^1.1.0",
+         "object-assign": "^4.1.1",
+         "prop-types": "^15.6.2",
+-        "scheduler": "^0.11.2"
++        "scheduler": "^0.19.1"
+       }
+     },
+     "react-error-overlay": {
+@@ -11268,6 +11275,56 @@
+       "resolved": "https://registry.npmjs.org/react-error-overlay/-/react-error-overlay-5.1.0.tgz",
+       "integrity": "sha512-akMy/BQT5m1J3iJIHkSb4qycq2wzllWsmmolaaFVnb+LPV9cIJ/nTud40ZsiiT0H3P+/wXIdbjx2fzF61OaeOQ=="
+     },
++    "react-is": {
++      "version": "16.13.1",
++      "resolved": "https://registry.npmjs.org/react-is/-/react-is-16.13.1.tgz",
++      "integrity": "sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ=="
++    },
++    "react-redux": {
++      "version": "7.2.2",
++      "resolved": "https://registry.npmjs.org/react-redux/-/react-redux-7.2.2.tgz",
++      "integrity": "sha512-8+CQ1EvIVFkYL/vu6Olo7JFLWop1qRUeb46sGtIMDCSpgwPQq8fPLpirIB0iTqFe9XYEFPHssdX8/UwN6pAkEA==",
++      "requires": {
++        "@babel/runtime": "^7.12.1",
++        "hoist-non-react-statics": "^3.3.2",
++        "loose-envify": "^1.4.0",
++        "prop-types": "^15.7.2",
++        "react-is": "^16.13.1"
++      },
++      "dependencies": {
++        "@babel/runtime": {
++          "version": "7.13.10",
++          "resolved": "https://registry.npmjs.org/@babel/runtime/-/runtime-7.13.10.tgz",
++          "integrity": "sha512-4QPkjJq6Ns3V/RgpEahRk+AGfL0eO6RHHtTWoNNr5mO49G6B5+X6d6THgWEAvTrznU5xYpbAlVKRYcsCgh/Akw==",
++          "requires": {
++            "regenerator-runtime": "^0.13.4"
++          }
++        },
++        "hoist-non-react-statics": {
++          "version": "3.3.2",
++          "resolved": "https://registry.npmjs.org/hoist-non-react-statics/-/hoist-non-react-statics-3.3.2.tgz",
++          "integrity": "sha512-/gGivxi8JPKWNm/W0jSmzcMPpfpPLc3dY/6GxhX2hQ9iGj3aDfklV4ET7NjKpSinLpJ5vafa9iiGIEZg10SfBw==",
++          "requires": {
++            "react-is": "^16.7.0"
++          }
++        },
++        "prop-types": {
++          "version": "15.7.2",
++          "resolved": "https://registry.npmjs.org/prop-types/-/prop-types-15.7.2.tgz",
++          "integrity": "sha512-8QQikdH7//R2vurIJSutZ1smHYTcLpRWEOlHnzcWHmBYrOGUysKwSsrC89BCiFj3CbrfJ/nXFdJepOVrY1GCHQ==",
++          "requires": {
++            "loose-envify": "^1.4.0",
++            "object-assign": "^4.1.1",
++            "react-is": "^16.8.1"
++          }
++        },
++        "regenerator-runtime": {
++          "version": "0.13.7",
++          "resolved": "https://registry.npmjs.org/regenerator-runtime/-/regenerator-runtime-0.13.7.tgz",
++          "integrity": "sha512-a54FxoJDIr27pgf7IgeQGxmqUNYrcV338lf/6gH456HZ/PhX+5BcwHXG9ajESmwe6WRO0tAzRUrRmNONWgkrew=="
++        }
++      }
++    },
+     "react-router": {
+       "version": "4.3.1",
+       "resolved": "https://registry.npmjs.org/react-router/-/react-router-4.3.1.tgz",
+@@ -11701,6 +11758,15 @@
+         "minimatch": "3.0.4"
+       }
+     },
++    "redux": {
++      "version": "4.0.5",
++      "resolved": "https://registry.npmjs.org/redux/-/redux-4.0.5.tgz",
++      "integrity": "sha512-VSz1uMAH24DM6MF72vcojpYPtrTUu3ByVWfPL1nPfVRb5mZVTve5GnNCUV53QM/BZ66xfWrm0CTWoM+Xlz8V1w==",
++      "requires": {
++        "loose-envify": "^1.4.0",
++        "symbol-observable": "^1.2.0"
++      }
++    },
+     "regenerate": {
+       "version": "1.4.0",
+       "resolved": "https://registry.npmjs.org/regenerate/-/regenerate-1.4.0.tgz",
+@@ -12055,7 +12121,7 @@
+     },
+     "safe-regex": {
+       "version": "1.1.0",
+-      "resolved": "https://registry.npmjs.org/safe-regex/-/safe-regex-1.1.0.tgz",
++      "resolved": "http://registry.npmjs.org/safe-regex/-/safe-regex-1.1.0.tgz",
+       "integrity": "sha1-QKNmnzsHfR6UPURinhV91IAjvy4=",
+       "requires": {
+         "ret": "~0.1.10"
+@@ -12420,9 +12486,9 @@
+       }
+     },
+     "scheduler": {
+-      "version": "0.11.2",
+-      "resolved": "https://registry.npmjs.org/scheduler/-/scheduler-0.11.2.tgz",
+-      "integrity": "sha512-+WCP3s3wOaW4S7C1tl3TEXp4l9lJn0ZK8G3W3WKRWmw77Z2cIFUW2MiNTMHn5sCjxN+t7N43HAOOgMjyAg5hlg==",
++      "version": "0.19.1",
++      "resolved": "https://registry.npmjs.org/scheduler/-/scheduler-0.19.1.tgz",
++      "integrity": "sha512-n/zwRWRYSUj0/3g/otKDRPMh6qv2SYMWNq85IEa8iZyAv8od9zDYpGSnpBEjNgcMNq6Scbu5KfIPxNF72R/2EA==",
+       "requires": {
+         "loose-envify": "^1.1.0",
+         "object-assign": "^4.1.1"
+@@ -12579,7 +12645,7 @@
+     },
+     "sha.js": {
+       "version": "2.4.11",
+-      "resolved": "https://registry.npmjs.org/sha.js/-/sha.js-2.4.11.tgz",
++      "resolved": "http://registry.npmjs.org/sha.js/-/sha.js-2.4.11.tgz",
+       "integrity": "sha512-QMEp5B7cftE7APOjk5Y6xgrbWu+WkLVQwk8JNjZ8nKRciZaByEW6MubieAiToS7+dwvrjGhH8jRXz3MVd0AYqQ==",
+       "requires": {
+         "inherits": "^2.0.1",
+@@ -13155,7 +13221,7 @@
+     },
+     "strip-eof": {
+       "version": "1.0.0",
+-      "resolved": "https://registry.npmjs.org/strip-eof/-/strip-eof-1.0.0.tgz",
++      "resolved": "http://registry.npmjs.org/strip-eof/-/strip-eof-1.0.0.tgz",
+       "integrity": "sha1-u0P/VZim6wXYm1n80SnJgzE2Br8="
+     },
+     "strip-json-comments": {
+@@ -13249,6 +13315,11 @@
+         "util.promisify": "~1.0.0"
+       }
+     },
++    "symbol-observable": {
++      "version": "1.2.0",
++      "resolved": "https://registry.npmjs.org/symbol-observable/-/symbol-observable-1.2.0.tgz",
++      "integrity": "sha512-e900nM8RRtGhlV36KGEU9k65K3mPb1WV70OdjfxlG2EAuM1noi/E/BaW/uMhL7bPEssK8QV57vN3esixjUvcXQ=="
++    },
+     "symbol-tree": {
+       "version": "3.2.2",
+       "resolved": "https://registry.npmjs.org/symbol-tree/-/symbol-tree-3.2.2.tgz",
+@@ -13569,6 +13640,11 @@
+         "prelude-ls": "~1.1.2"
+       }
+     },
++    "type-detect": {
++      "version": "4.0.8",
++      "resolved": "https://registry.npmjs.org/type-detect/-/type-detect-4.0.8.tgz",
++      "integrity": "sha512-0fr/mIH1dlO+x7TlcMy+bIDqKPsw/70tVyeHW787goQjhmqaZe10uwLujubK9q9Lg6Fiho1KUKDYz0Z7k7g5/g=="
++    },
+     "type-is": {
+       "version": "1.6.16",
+       "resolved": "https://registry.npmjs.org/type-is/-/type-is-1.6.16.tgz",
+Index: package.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/package.json b/package.json
+--- a/package.json	(revision 61d8a0bd368c9d35aa346d2352b53a70d7373e9a)
++++ b/package.json	(revision 46593003330adaaabeb72739e665d30c19487322)
+@@ -3,10 +3,13 @@
+   "version": "0.1.0",
+   "private": true,
+   "dependencies": {
+-    "react": "^16.6.3",
+-    "react-dom": "^16.6.3",
++    "deepcopy": "^2.1.0",
++    "react": "^16.14.0",
++    "react-dom": "^16.14.0",
++    "react-redux": "^7.2.2",
+     "react-router-dom": "^4.3.1",
+-    "react-scripts": "2.1.1"
++    "react-scripts": "2.1.1",
++    "redux": "^4.0.5"
+   },
+   "scripts": {
+     "start": "react-scripts start",
+Index: src/App.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/App.js b/src/App.js
+--- a/src/App.js	(revision 61d8a0bd368c9d35aa346d2352b53a70d7373e9a)
++++ b/src/App.js	(revision 46593003330adaaabeb72739e665d30c19487322)
+@@ -3,25 +3,23 @@
+ import Header from './components/Header/Header';
+ import Navbar from './components/Navbar/Navbar';
+ import Profile from './components/Profile/Profile';
+-import Dialogs from "./components/Dialogs/Dialogs";
+-import { BrowserRouter, Route } from "react-router-dom";
+-
++import {Route} from "react-router-dom";
++import DialogsContainer from "./components/Dialogs/DialogsContainer";
+ 
+ const App = (props) => {
+     return (
+-        <BrowserRouter>
+-            <div className='app-wrapper'>
+-                <Header />
+-                <Navbar />
+-                <div class='app-wrapper-content'>
+-                    <Route path='/dialogs'
+-                        render={() => <Dialogs state={props.state.dialogsPage} />} />
+-                    <Route path='/profile'
+-                        render={() => <Profile profilePage={props.state.profilePage}
+-                            dispatch={props.dispatch}/>} />
+-                </div>
+-            </div>
+-        </BrowserRouter>)
++        <div className='app-wrapper'>
++            <Header/>
++            <Navbar/>
++            <div className='app-wrapper-content'>
++                <Route path='/dialogs'
++                       render={() => <DialogsContainer store={props.store} />}/>
++
++                <Route path='/profile'
++                       render={() => <Profile store={props.store}/>}/>
++            </div>
++        </div>
++    )
+ }
+ 
+ export default App;
+\ No newline at end of file
+Index: src/components/Dialogs/Dialogs.jsx
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/components/Dialogs/Dialogs.jsx b/src/components/Dialogs/Dialogs.jsx
+--- a/src/components/Dialogs/Dialogs.jsx	(revision 61d8a0bd368c9d35aa346d2352b53a70d7373e9a)
++++ b/src/components/Dialogs/Dialogs.jsx	(revision 46593003330adaaabeb72739e665d30c19487322)
+@@ -1,12 +1,21 @@
+-import React, { createRef } from 'react';
++import React from 'react';
+ import s from './Dialogs.module.css';
+ import DialogItem from "./DialogItem/DialogItem";
+ import Message from "./Message/Message";
+ 
+ const Dialogs = (props) => {
+-    let dialogsElements = props.state.dialogs.map(d => <DialogItem name={d.name} id={d.id} />);
+-    let messagesElements = props.state.messages.map(m => <Message message={m.message} />);
+-    let txtArea = React.createRef()
++    let dialogsElements = props.dialogsPage.dialogs.map(d => <DialogItem name={d.name} key={d.id} id={d.id}/>);
++    let messagesElements = props.dialogsPage.messages.map(m => <Message message={m.message} key={m.id}/>);
++    let newMessageBody = props.dialogsPage.newMessageBody
++
++    let onMessageType = (e) => {
++        let body = e.target.value
++        props.updateNewMessageBody(body)
++    };
++    let onSendMessageClick = () => {
++        props.sendMessage()
++    };
++
+ 
+     return (
+         <div className={s.dialogs}>
+@@ -14,10 +23,15 @@
+                 {dialogsElements}
+             </div>
+             <div className={s.messages}>
+-                {messagesElements}
++                <div>{messagesElements}</div>
++                <div>
++                    <div><textarea onChange={onMessageType} value={newMessageBody} placeholder="Type here"/>
++                    </div>
++                    <div>
++                        <button onClick={onSendMessageClick}>send</button>
++                    </div>
++                </div>
+             </div>
+-            <textarea ref={txtArea}></textarea>
+-            <button>Отправить</button>
+         </div>
+     )
+ }
+Index: src/components/Dialogs/DialogsContainer.jsx
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/components/Dialogs/DialogsContainer.jsx b/src/components/Dialogs/DialogsContainer.jsx
+new file mode 100644
+--- /dev/null	(revision 46593003330adaaabeb72739e665d30c19487322)
++++ b/src/components/Dialogs/DialogsContainer.jsx	(revision 46593003330adaaabeb72739e665d30c19487322)
+@@ -0,0 +1,25 @@
++import React from 'react';
++
++import Dialogs from "./Dialogs";
++import {sendMessageCreator, updateNewMessageBodyCreator} from "../../redux/dialogsReducer";
++
++import {connect} from "react-redux";
++// ---------------??
++    let mapStateToProps = (state) => {
++        return {
++            dialogsPage: state.dialogsPage
++        }
++    }
++    let mapDispatchToProps = (dispatch) => {
++        return {
++            updateNewMessageBody: (body) => {
++                dispatch(updateNewMessageBodyCreator(body))
++            },
++            sendMessage: () => {
++                dispatch(sendMessageCreator())
++            },
++        }
++    }
++
++const DialogsContainer = connect(mapStateToProps, mapDispatchToProps)(Dialogs);
++export default DialogsContainer
+\ No newline at end of file
+Index: src/components/Profile/MyPosts/MyPosts.jsx
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/components/Profile/MyPosts/MyPosts.jsx b/src/components/Profile/MyPosts/MyPosts.jsx
+--- a/src/components/Profile/MyPosts/MyPosts.jsx	(revision 61d8a0bd368c9d35aa346d2352b53a70d7373e9a)
++++ b/src/components/Profile/MyPosts/MyPosts.jsx	(revision 46593003330adaaabeb72739e665d30c19487322)
+@@ -1,45 +1,42 @@
+ import React from 'react';
+ import s from './MyPosts.module.css';
+-import Post from './Post/Post';
+-import {addPostActionCreator, newPostTextActionCreator} from "../../../redux/state";
++import Post from "./Post/Post";
+ 
+ 
+ 
+ const MyPosts = (props) => {
+     let postsElements =
+-        props.posts.map(p => <Post message={p.message} likesCount={p.likesCount}/>);
+-    let newPostElement = React.createRef()
+-    let addPost = () => {
+-        let text = newPostElement.current.value
+-        props.dispatch(addPostActionCreator())
++        props.profilePage.posts.map(p => <Post message={p.message} likesCount={p.likesCount} key={p.id}/>);
++
++    let newPostElement = React.createRef();
++
++    let onAddPost = () => {
++        props.addPost();
+     }
++
+     let onPostChange = () => {
+-        let text = newPostElement.current.value
+-let action = newPostTextActionCreator(text)
+-        props.dispatch(action)
+-        console.log(text);
++        let text = newPostElement.current.value;
++        props.updateNewPostText(text);
+     }
+-    return (
+-        <div className={s.postsBlock}>
+-            <h3>My posts</h3>
+-            <div>
+-                <div>
+-                    <textarea
+-                        value={props.postTextInput}
+-                        onChange={onPostChange}
+-                        ref={newPostElement}
+-                    />
+-
+-                </div>
+-                <div>
+-                    <button onClick={addPost}>Add post</button>
+-                </div>
+-            </div>
+-            <div className={s.posts}>
+-                {postsElements}
+-            </div>
+-        </div>
+-    )
+-}
++
++        return(
++            <div className={s.postsBlock}>
++                <h3>My posts</h3>
++                <div>
++                    <div>
++                    <textarea onChange={onPostChange} ref={newPostElement}
++                              value={props.newPostText}/>
++                    </div>
++                    <div>
++                        <button onClick={onAddPost}>Add post</button>
++                    </div>
++                </div>
++                <div className={s.posts}>
++                    {postsElements}
++                </div>
++            </div>
++        )
++    }
+ 
++
+ export default MyPosts;
+\ No newline at end of file
+Index: src/components/Profile/MyPosts/MyPostsContainer.jsx
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/components/Profile/MyPosts/MyPostsContainer.jsx b/src/components/Profile/MyPosts/MyPostsContainer.jsx
+new file mode 100644
+--- /dev/null	(revision 46593003330adaaabeb72739e665d30c19487322)
++++ b/src/components/Profile/MyPosts/MyPostsContainer.jsx	(revision 46593003330adaaabeb72739e665d30c19487322)
+@@ -0,0 +1,24 @@
++import React from 'react';
++import {addPostActionCreator, updateNewPostTextActionCreator} from "../../../redux/profileReducer";
++import MyPosts from "./MyPosts";
++import {connect} from "react-redux";
++
++const mapStateToProps = (state) => {
++    return {
++        profilePage: state.profilePage
++    }
++}
++const mapDispatchToProps = (dispatch) => {
++    return {
++        updateNewPostText: (text) => {
++            dispatch(updateNewPostTextActionCreator(text))
++        },
++        addPost: () => {
++            dispatch(addPostActionCreator())
++        },
++    }
++}
++
++
++const MyPostsContainer = connect(mapStateToProps,mapDispatchToProps)(MyPosts)
++export default MyPostsContainer;
+\ No newline at end of file
+Index: src/components/Profile/MyPosts/Post/Post.jsx
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/components/Profile/MyPosts/Post/Post.jsx b/src/components/Profile/MyPosts/Post/Post.jsx
+--- a/src/components/Profile/MyPosts/Post/Post.jsx	(revision 61d8a0bd368c9d35aa346d2352b53a70d7373e9a)
++++ b/src/components/Profile/MyPosts/Post/Post.jsx	(revision 46593003330adaaabeb72739e665d30c19487322)
+@@ -4,7 +4,7 @@
+ const Post = (props) => {
+   return (
+     <div className={s.item}>
+-      <img src='https://movies4maniacs.liberty.me/wp-content/uploads/sites/1218/2015/09/avatarsucks.jpg' />
++      <img src='https://movies4maniacs.liberty.me/wp-content/uploads/sites/1218/2015/09/avatarsucks.jpg'  alt={null}/>
+         { props.message }
+           <div>
+         <span>like</span> { props.likesCount }
+Index: src/components/Profile/Profile.jsx
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/components/Profile/Profile.jsx b/src/components/Profile/Profile.jsx
+--- a/src/components/Profile/Profile.jsx	(revision 61d8a0bd368c9d35aa346d2352b53a70d7373e9a)
++++ b/src/components/Profile/Profile.jsx	(revision 46593003330adaaabeb72739e665d30c19487322)
+@@ -1,17 +1,13 @@
+ import React from 'react';
+-import s from './Profile.module.css';
+-import MyPosts from './MyPosts/MyPosts';
+ import ProfileInfo from "./ProfileInfo/ProfileInfo";
++import MyPostsContainer from "./MyPosts/MyPostsContainer";
+ 
+ const Profile = (props) => {
++
+     return (
+         <div>
+-            <ProfileInfo />
+-            <MyPosts
+-                posts={props.profilePage.posts}
+-                postTextInput={props.profilePage.postTextInput}
+-                dispatch={props.dispatch}
+-            />
++            <ProfileInfo/>
++            <MyPostsContainer store={props.store}/>
+         </div>
+     )
+ }
+Index: src/components/Profile/ProfileInfo/ProfileInfo.jsx
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/components/Profile/ProfileInfo/ProfileInfo.jsx b/src/components/Profile/ProfileInfo/ProfileInfo.jsx
+--- a/src/components/Profile/ProfileInfo/ProfileInfo.jsx	(revision 61d8a0bd368c9d35aa346d2352b53a70d7373e9a)
++++ b/src/components/Profile/ProfileInfo/ProfileInfo.jsx	(revision 46593003330adaaabeb72739e665d30c19487322)
+@@ -1,7 +1,6 @@
+ import React from 'react';
+ import s from './ProfileInfo.module.css';
+ 
+-
+ const ProfileInfo = () => {
+     return (
+         <div>
+Index: src/index.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/index.js b/src/index.js
+--- a/src/index.js	(revision 61d8a0bd368c9d35aa346d2352b53a70d7373e9a)
++++ b/src/index.js	(revision 46593003330adaaabeb72739e665d30c19487322)
+@@ -1,21 +1,30 @@
+-import App from './App';
+ import * as serviceWorker from './serviceWorker';
+-// import state, { newPostText, subscribe } from './redux/state';
+-// import { addPost } from './redux/state'
+-import store from './redux/state'
++import store from "./redux/redux-store";
+ import React from 'react';
+ import ReactDOM from 'react-dom';
+ import './index.css';
+-let rerender = (state) => {
+-	ReactDOM.render(<App
+-		state={state}
+-		dispatch={store.dispatch.bind(store)}
+-	/>,
+-		document.getElementById('root'));
++import App from './App';
++import {BrowserRouter} from "react-router-dom";
++import {Provider} from "react-redux";
++
++let rerenderEntireTree = () => {
++    ReactDOM.render(
++        <BrowserRouter>
++            <Provider store={store}>
++                <App/>
++            </Provider>
++        </BrowserRouter>, document.getElementById('root'));
+ }
+ 
+-rerender(store._state)
+-store.subscribe(rerender)
++rerenderEntireTree(store.getState());
++
++store.subscribe(() => {
++    let state = store.getState()
++    rerenderEntireTree(state)
++});
++
++
++// API
+ // If you want your app to work offline and load faster, you can change
+ // unregister() to register() below. Note this comes with some pitfalls.
+ // Learn more about service workers: http://bit.ly/CRA-PWA
+Index: src/redux/dialogsReducer.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/redux/dialogsReducer.js b/src/redux/dialogsReducer.js
+new file mode 100644
+--- /dev/null	(revision 46593003330adaaabeb72739e665d30c19487322)
++++ b/src/redux/dialogsReducer.js	(revision 46593003330adaaabeb72739e665d30c19487322)
+@@ -0,0 +1,48 @@
++const UPDATE_NEW_MESSAGE_BODY = "UPDATE_NEW_MESSAGE_BODY";
++const SEND_MESSAGE = "SEND_MESSAGE";
++
++let initialState = {
++    dialogs: [
++        {id: 1, name: 'Dimych'},
++        {id: 2, name: 'Andrew'},
++        {id: 3, name: 'Sveta'},
++        {id: 4, name: 'Sasha'},
++        {id: 5, name: 'Viktor'},
++        {id: 6, name: 'Valera'},
++    ],
++    messages: [
++        {id: 1, message: 'Hi'},
++        {id: 2, message: 'How is your it-kamasutra?'},
++        {id: 3, message: 'Yo'},
++        {id: 4, message: 'Yo'},
++        {id: 5, message: 'Yo'}
++    ],
++    newMessageBody: ""
++}
++
++const dialogsReducer = (state = initialState, action) => {
++    switch (action.type) {
++        case UPDATE_NEW_MESSAGE_BODY:
++            return {
++                ...state,
++                messages: [...state.messages],
++                newMessageBody: action.body
++            }
++
++        case SEND_MESSAGE:
++            let body = state.newMessageBody;
++            return {
++                ...state,
++                newMessageBody: '',
++                messages: [...state.messages, {id: 6, message: body}],
++            }
++
++        default:
++            return state
++    }
++}
++export default dialogsReducer
++
++export const sendMessageCreator = () => ({type: SEND_MESSAGE})
++export const updateNewMessageBodyCreator = (body) =>
++    ({type: UPDATE_NEW_MESSAGE_BODY, body: body})
+\ No newline at end of file
+Index: src/redux/profileReducer.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/redux/profileReducer.js b/src/redux/profileReducer.js
+new file mode 100644
+--- /dev/null	(revision 46593003330adaaabeb72739e665d30c19487322)
++++ b/src/redux/profileReducer.js	(revision 46593003330adaaabeb72739e665d30c19487322)
+@@ -0,0 +1,43 @@
++const ADD_POST = 'ADD-POST';
++const UPDATE_NEW_POST_TEXT = 'UPDATE-NEW-POST-TEXT';
++
++let initialState = {
++    posts: [
++        {id: 1, message: 'Hi, how are you?', likesCount: 12},
++        {id: 2, message: 'It\'s my first post', likesCount: 11},
++        {id: 3, message: 'Blabla', likesCount: 11},
++        {id: 4, message: 'Dada', likesCount: 11}
++    ],
++    newPostText: 'it-kamasutra.com'
++}
++
++const profileReducer = (state = initialState, action) => {
++    switch (action.type) {
++        case ADD_POST:
++            let newPost = {
++                id: 5,
++                message: state.newPostText,
++                likesCount: 0
++            };
++            return {
++                ...state,
++                posts: [...state.posts, newPost],
++                newPostText: '',
++            }
++
++        case UPDATE_NEW_POST_TEXT:
++            return {
++                ...state,
++                newPostText: action.newText,
++            }
++
++        default:
++            return state
++    }
++}
++
++export default profileReducer
++
++export const addPostActionCreator = () => ({type: ADD_POST})
++export const updateNewPostTextActionCreator = (text) =>
++    ({type: UPDATE_NEW_POST_TEXT, newText: text})
+\ No newline at end of file
+Index: src/redux/redux-store.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/redux/redux-store.js b/src/redux/redux-store.js
+new file mode 100644
+--- /dev/null	(revision 46593003330adaaabeb72739e665d30c19487322)
++++ b/src/redux/redux-store.js	(revision 46593003330adaaabeb72739e665d30c19487322)
+@@ -0,0 +1,15 @@
++import {combineReducers, createStore} from "redux";
++import profileReducer from "./profileReducer";
++import dialogsReducer from "./dialogsReducer";
++import sidebarReducer from "./sidebarReducer";
++
++
++let reducers = combineReducers({
++    profilePage: profileReducer,
++    dialogsPage: dialogsReducer,
++    sidebar: sidebarReducer,
++})
++let store = createStore(reducers);
++window.store=store;
++window.state = store.getState()
++export default store;
+\ No newline at end of file
+Index: src/redux/sidebarReducer.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/redux/sidebarReducer.js b/src/redux/sidebarReducer.js
+new file mode 100644
+--- /dev/null	(revision 46593003330adaaabeb72739e665d30c19487322)
++++ b/src/redux/sidebarReducer.js	(revision 46593003330adaaabeb72739e665d30c19487322)
+@@ -0,0 +1,9 @@
++
++let initialState = {}
++
++const sidebarReducer = (state = initialState,action)=>{
++
++    return state
++}
++
++export default sidebarReducer
+\ No newline at end of file
+Index: src/redux/state.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/redux/state.js b/src/redux/store.js
+rename from src/redux/state.js
+rename to src/redux/store.js
+--- a/src/redux/state.js	(revision 61d8a0bd368c9d35aa346d2352b53a70d7373e9a)
++++ b/src/redux/store.js	(revision 46593003330adaaabeb72739e665d30c19487322)
+@@ -1,7 +1,13 @@
+-let ADD_POST = 'ADD-POST';
+-let NEW_POST_TEXT = 'NEW-POST-TEXT';
++import profileReducer from "./profileReducer";
++import dialogsReducer from "./dialogsReducer";
++import sidebarReducer from "./sidebarReducer";
+ 
+-const store = {
++const ADD_POST = 'ADD-POST';
++const UPDATE_NEW_POST_TEXT = 'UPDATE-NEW-POST-TEXT';
++const UPDATE_NEW_MESSAGE_BODY = "UPDATE_NEW_MESSAGE_BODY";
++const SEND_MESSAGE = "SEND_MESSAGE";
++
++let store = {
+     _state: {
+         profilePage: {
+             posts: [
+@@ -10,7 +16,7 @@
+                 {id: 3, message: 'Blabla', likesCount: 11},
+                 {id: 4, message: 'Dada', likesCount: 11}
+             ],
+-            postTextInput: ''
++            newPostText: 'it-kamasutra.com'
+         },
+         dialogsPage: {
+             dialogs: [
+@@ -19,7 +25,7 @@
+                 {id: 3, name: 'Sveta'},
+                 {id: 4, name: 'Sasha'},
+                 {id: 5, name: 'Viktor'},
+-                {id: 6, name: 'Valera'}
++                {id: 6, name: 'Valera'},
+             ],
+             messages: [
+                 {id: 1, message: 'Hi'},
+@@ -27,37 +33,35 @@
+                 {id: 3, message: 'Yo'},
+                 {id: 4, message: 'Yo'},
+                 {id: 5, message: 'Yo'}
+-            ]
++            ],
++            newMessageBody: ""
+         },
+         sidebar: {}
+     },
+-    getState() {
+-        return this._state
+-    },
+     _callSubscriber() {
+-        console.log('dwadawdwa');
++        console.log('State changed');
++    },
+ 
++    getState() {
++        return this._state;
+     },
+     subscribe(observer) {
+-        this._callSubscriber = observer
++        this._callSubscriber = observer;  // observer
+     },
+ 
+-    dispatch(action) {
+-        if (action.type === "ADD-POST") {
+-            let newPost = {id: 5, message: this._state.profilePage.postTextInput, likesCount: 111}
+-            this._state.profilePage.posts.push(newPost)
+-            this._state.profilePage.postTextInput = ''
+-            this._callSubscriber(this._state)
+-        } else if (action.type === "NEW-POST-TEXT") {
+-            this._state.profilePage.postTextInput = action.newText
+-            this._callSubscriber(this._state)
+-        }
++    dispatch(action) { // { type: 'ADD-POST' }
++        this._state.profilePage = profileReducer(this._state.profilePage,action)
++        this._state.dialogsPage = dialogsReducer(this._state.dialogsPage,action)
++        this._state.sidebar = sidebarReducer(this._state.sidebar,action)
+ 
++        this._callSubscriber(this._state);
+     }
+ }
+-export const addPostActionCreator = () => ({type: ADD_POST,})
+-export const newPostTextActionCreator = (text) => ({type: NEW_POST_TEXT,newText: text,})
+ 
+-export default store
+ 
+ 
++
++
++export default store;
++window.store = store;
++// store - OOP
+\ No newline at end of file

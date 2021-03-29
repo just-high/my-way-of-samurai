@@ -9,11 +9,12 @@ let initialState = {
         {id: 4, message: 'Dada', likesCount: 11}
     ],
     newPostText: 'it-kamasutra.com'
-}
+};
 
 const profileReducer = (state = initialState, action) => {
-    switch (action.type) {
-        case ADD_POST:
+
+    switch(action.type) {
+        case ADD_POST: {
             let newPost = {
                 id: 5,
                 message: state.newPostText,
@@ -22,22 +23,23 @@ const profileReducer = (state = initialState, action) => {
             return {
                 ...state,
                 posts: [...state.posts, newPost],
-                newPostText: '',
-            }
-
-        case UPDATE_NEW_POST_TEXT:
+                newPostText: ''
+            };
+        }
+        case UPDATE_NEW_POST_TEXT: {
             return {
                 ...state,
-                newPostText: action.newText,
+                newPostText: action.newText
             }
-
+        }
         default:
-            return state
+            return state;
     }
 }
 
-export default profileReducer
 
 export const addPostActionCreator = () => ({type: ADD_POST})
 export const updateNewPostTextActionCreator = (text) =>
-    ({type: UPDATE_NEW_POST_TEXT, newText: text})
+    ({type: UPDATE_NEW_POST_TEXT, newText: text })
+
+export default profileReducer;
